@@ -26,21 +26,18 @@ Built specifically to simulate high-throughput packaging line operations  by cat
         └──► [ Agentic RCA Engine ] ──► Automated Diagnostic Report Output
 
 🛠 Tech Stack
-Primary Languages: Python 3.12
-
-Event Streaming & Messaging: Apache Kafka, Apache Zookeeper
-
-AI / ML / RAG Engine: LangChain, Hugging Face Transformers (sentence-transformers/all-MiniLM-L6-v2), Qdrant Vector Store
-
-Microservices & APIs: FastAPI, Uvicorn, Pydantic
-
-Containerization & Ops: Docker, Docker Compose
+Primary Languages: 
+1. Python 3.12
+2. Event Streaming & Messaging: Apache Kafka, Apache Zookeeper
+3. AI / ML / RAG Engine: LangChain, Hugging Face Transformers (sentence-transformers/all-MiniLM-L6-v2), Qdrant Vector Store
+4. Microservices & APIs: FastAPI, Uvicorn, Pydantic
+5. Containerization & Ops: Docker, Docker Compose
 
 🚀 Key Features
-Real-Time Sensor Ingestion Stream: Simulated IIoT telemetry producer broadcasting temperature and vibration metrics across multi-line equipment configurations via Apache Kafka.
-Automated Anomaly Interception: Asynchronous Kafka consumer service intercepting CRITICAL machine threshold spikes ($>88^\circ\text{C}$ or $>3.8\text{ mm/s}$ vibration).
-Semantic RAG Diagnostic Mapping: Vector search mapping incoming error codes (ERR-TEMP-901, ERR-VIB-402) to technical operating manuals stored in Qdrant in-memory vector storage.
-Decoupled Microservice Architecture: Modular ingestion, processing, and vector search services orchestrated using Docker Compose for sub-200ms diagnostic processing latency.
+1. Real-Time Sensor Ingestion Stream: Simulated IIoT telemetry producer broadcasting temperature and vibration metrics across multi-line equipment configurations via Apache Kafka.
+2. Automated Anomaly Interception: Asynchronous Kafka consumer service intercepting CRITICAL machine threshold spikes ($>88^\circ\text{C}$ or $>3.8\text{ mm/s}$ vibration).
+3. Semantic RAG Diagnostic Mapping: Vector search mapping incoming error codes (ERR-TEMP-901, ERR-VIB-402) to technical operating manuals stored in Qdrant in-memory vector storage.
+4. Decoupled Microservice Architecture: Modular ingestion, processing, and vector search services orchestrated using Docker Compose for sub-200ms diagnostic processing latency.
 
 
 📁 Repository Structure
