@@ -41,18 +41,8 @@ Primary Languages:
 
 
 📁 Repository Structure
-iiot-predictive-rag-platform/
-├── docker-compose.yml          # Container setup for Kafka, Zookeeper, and Qdrant
-├── requirements.txt            # Python dependencies
-├── .gitignore                  # Excludes venv, bytecode, and sensitive keys
-├── README.md                   # System documentation
-├── manuals/
-│   └── krones_filling_machine.txt  # Equipment manuals context for vector search
-├── producer/
-│   └── telemetry_producer.py   # Kafka streaming producer for machine metrics
-└── rca_service/
-    ├── app.py                  # FastAPI server & Qdrant RAG engine
-    └── consumer.py             # Event listener invoking automated RCA
+<img width="707" height="297" alt="image" src="https://github.com/user-attachments/assets/38a26461-ebf8-450a-8f29-a89b70d528c3" />
+
 
 
 
