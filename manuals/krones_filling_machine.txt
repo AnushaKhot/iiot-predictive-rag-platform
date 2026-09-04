@@ -1,0 +1,16 @@
+EQUIPMENT: KRONES Modulfill VFS
+ERROR CODE: ERR-TEMP-901
+DESCRIPTION: Main drive shaft bearing overheating beyond standard operational range.
+ROOT CAUSE: Lubrication seal degradation leading to high mechanical friction.
+CORRECTIVE ACTION:
+1. Immediately throttle line speed to 50% capacity.
+2. Inspect primary lubrication lines for seal pressure drop.
+3. Replace thermal grease and bearing assembly if ambient temperature exceeds 90C.
+
+ERROR CODE: ERR-VIB-402
+DESCRIPTION: Abnormal vibration detected in rotary carousels.
+ROOT CAUSE: Unbalanced load distribution or loose mounting bolts on sub-frame.
+CORRECTIVE ACTION:
+1. Halt bottle feed queue.
+2. Execute torque check on mounting bolts (Standard: 45 Nm).
+3. Recalibrate vibration sensors using diagnostic dashboard.
